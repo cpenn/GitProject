@@ -12,7 +12,7 @@ public class Card {
 
 	// Method: Display card
 	String DisplayCard() {
-		return rank + suit.charAt(0);
+		return rank + suit.charAt(1);
 	}
 
 //	public static void main(String[] args) {
