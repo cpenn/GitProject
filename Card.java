@@ -12,6 +12,7 @@ public class Card {
 
 	// Method: Display card
 	String DisplayCard() {
+		System.out.print"Your card is ";
 		return rank + suit.charAt(1);
 	}
 
